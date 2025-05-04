@@ -1,0 +1,114 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Quiz Generator</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_quiz_review">QuizReviewActivity</string>
+    <string name="title_activity_question_review">QuestionReviewActivity</string>
+
+    <string name="button_ok" tools:ignore="ButtonCase">Okay</string>
+    <string name="button_cancel" tools:ignore="ButtonCase">Cancel</string>
+    <string name="button_confirm" tools:ignore="ButtonCase">Confirm</string>
+    <string name="button_delete" tools:ignore="ButtonCase">Delete</string>
+    <string name="button_generate_quiz" tools:ignore="ButtonCase">Generate Quiz</string>
+
+    //Navigation
+    <string name="nav_home">Home</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_settings">Settings</string>
+
+    //Dialog
+    <string name="dialog_leave_header">Leave Quiz</string>
+    <string name="dialog_leave_text">Are you sure you want to leave the quiz?</string>
+    <string name="dialog_delete_header">Delete %1$s</string>
+    <string name="dialog_delete_text">Are you sure you want to delete the %1$s?</string>
+
+    //Toast
+    <string name="question_added_successfully">Question has been saved!</string>
+    <string name="question_removed_successfully">Question has been removed from saved questions!</string>
+    <string name="quiz_added_successfully">Quiz has been saved!</string>
+    <string name="quiz_removed_successfully">Quiz has been removed from saved quizzes!</string>
+
+    <string name="sorting_option_header">Sorting Options</string>
+
+    <string name="text_correct_answer">✅ Correct!</string>
+    <string name="text_wrong_answer">❌ Wrong!</string>
+    <string name="text_no_choice">-- No answer was selected.</string>
+
+    //QuestionReviewScreen
+    <string name="question_review_title">Question Review</string>
+    <string name="menu_show_answer">Show Answer</string>
+    <string name="menu_hide_answer">Hide Answer</string>
+    <string name="menu_delete_question">Unsave Question</string>
+    <string name="menu_add_question">Save Question</string>
+    <string name="error_question_data_missing">Question data is missing.</string>
+
+    //QuizReviewScreen
+    <string name="quiz_review_title">Quiz Review</string>
+    <string name="menu_show_answers">Show Answers</string>
+    <string name="menu_hide_answers">Hide Answers</string>
+    <string name="menu_delete_quiz">Delete Quiz</string>
+    <string name="menu_add_quiz">Save Quiz</string>
+    <string name="place_of_question">%1$d. Soru</string>
+    <string name="expand_questions">Expand Questions</string>
+    <string name="collapse_questions">Collapse Questions</string>
+
+    //Selector
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="quiz_type_multiple_choice">Multiple Choice</string>
+    <string name="quiz_type_true_false">True / False</string>
+    <string name="language_english">English</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="header_difficulty"> Difficulty:</string>
+    <string name="header_quiz_type"> Quiz Type:</string>
+    <string name="header_question_count"> Count:</string>
+    <string name="header_language"> Language:</string>
+
+    //HomeScreen
+    <string name="label_enter_topic">Enter a topic</string>
+    <string name="reset_button_description">Reset topic button</string>
+
+    //FavouriteScreen
+    <string name="favourite_type_quizzes">Quizzes</string>
+    <string name="favourite_type_questions">Questions</string>
+    <string name="favourite_type_label">Select an option</string>
+    <string name="dropdown_expand">Expand dropdown</string>
+    <string name="dropdown_collapse">Collapse dropdown</string>
+    <string name="text_no_saved_quizzes">No saved quizzes found.</string>
+    <string name="text_no_saved_questions">No saved questions found.</string>
+
+    //SortingDialog
+    <string name="sort_newest">Newest</string>
+    <string name="sort_oldest">Oldest</string>
+
+    //QuizScreen
+    <string name="answer_correct">✅ Correct!</string>
+    <string name="answer_wrong">❌ Wrong!</string>
+    <string name="button_check_answer">Check Answer</string>
+    <string name="button_show_results">Show Results</string>
+    <string name="button_next_question">Next Question</string>
+    <string name="creating_quiz">Creating quiz…</string>
+    <string name="quiz_completed">"🎉 Quiz completed!"</string>
+    <string name="result_correct_answers">✅ Correct Answers: %1$d / %2$d</string>
+    <string name="button_save_quiz">Save Quiz</string>
+    <string name="fav_question_description">Save question</string>
+
+    <string name="error_unknown">⚠️ Unknown error occurred</string>
+    <string name="error_unexpected">🚨 Unexpected error: %1$s</string>
+
+    <string name="back_button_description">Back</string>
+
+    //SettingsScreen
+    <string name="settings_title">Settings</string>
+    <string name="label_language">Language</string>
+    <string name="label_dark_mode">Dark Mode</string>
+    <string name="button_delete_all_questions">Delete All Saved Questions</string>
+    <string name="button_delete_all_quizzes">Delete All Saved Quizzes</string>
+    <string name="all_questions_deleted">All questions have been deleted from saved.</string>
+    <string name="all_quizzes_deleted">All quizzes have been deleted from saved.</string>
+    <string name="header_quizzes_for_delete_dialog">Delete All Questions</string>
+    <string name="header_questions_for_delete_dialog">Delete All Quizzes</string>
+    <string name="text_dialog_all_quizzes">Are you sure to delete all saved quizzes?</string>
+    <string name="text_dialog_all_questions">Are you sure to delete all saved questions?</string>
+
+</resources>

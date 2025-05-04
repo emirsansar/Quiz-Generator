@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz Generator</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_quiz_review">QuizReviewActivity</string>
+    <string name="title_activity_question_review">QuestionReviewActivity</string>
+
+    <string name="button_ok">Tamam</string>
+    <string name="button_cancel">İptal</string>
+    <string name="button_confirm">Onayla</string>
+    <string name="button_delete">Sil</string>
+    <string name="button_generate_quiz">Quiz Oluştur</string>
+
+    //Navigation
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_saved">Kaydedilenler</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    //Dialog
+    <string name="dialog_leave_header">Quiz\'den Ayrıl</string>
+    <string name="dialog_leave_text">Quiz\'den ayrılmak istediğinize emin misiniz?</string>
+    <string name="dialog_delete_header">%1$s Sil</string>
+    <string name="dialog_delete_text">%1$s öğesini silmek istediğinizden emin misiniz?</string>
+
+    //Toast
+    <string name="question_added_successfully">Soru kaydedildi!</string>
+    <string name="question_removed_successfully">Soru, kaydedilenlerden kaldırıldı!</string>
+    <string name="quiz_added_successfully">Quiz kaydedildi!</string>
+    <string name="quiz_removed_successfully">Quiz, kaydedilenlerden kaldırıldı!</string>
+
+
+    <string name="sorting_option_header">Sıralama Seçenekleri</string>
+
+    <string name="text_correct_answer">✅ Doğru!</string>
+    <string name="text_wrong_answer">❌ Yanlış!</string>
+    <string name="text_no_choice">-- Cevaplanmadı.</string>
+
+    //QuestionReviewScreen
+    <string name="question_review_title">Soru İnceleme</string>
+    <string name="menu_show_answer">Cevabı Göster</string>
+    <string name="menu_hide_answer">Cevabı Gizle</string>
+    <string name="menu_delete_question">Kaydedilenden Kaldır</string>
+    <string name="menu_add_question">Kaydedilenlere Ekle</string>
+    <string name="error_question_data_missing">Soru verisi bulunamadı.</string>
+
+    //QuizReviewScreen
+    <string name="quiz_review_title">Quiz İnceleme</string>
+    <string name="menu_show_answers">Cevapları Göster</string>
+    <string name="menu_hide_answers">Cevapları Gizle</string>
+    <string name="menu_delete_quiz">Kaydedilenden Kaldır</string>
+    <string name="menu_add_quiz">Kaydedilenlere Ekle</string>
+    <string name="place_of_question">%1$d. Soru</string>
+    <string name="expand_questions">Soruları Genişlet</string>
+    <string name="collapse_questions">Soruları Küçült</string>
+
+    //Selectors
+    <string name="difficulty_easy">Kolay</string>
+    <string name="difficulty_medium">Orta</string>
+    <string name="difficulty_hard">Zor</string>
+    <string name="quiz_type_multiple_choice">Çoktan Seçmeli</string>
+    <string name="quiz_type_true_false">Doğru / Yanlış</string>
+    <string name="language_english">English</string>
+    <string name="language_turkish">Türkçe</string>
+    <string name="header_difficulty"> Zorluk:</string>
+    <string name="header_quiz_type"> Quiz Türü:</string>
+    <string name="header_question_count"> Adet:</string>
+    <string name="header_language"> Dil:</string>
+
+    //HomeScreen
+    <string name="label_enter_topic">Konu giriniz</string>
+    <string name="reset_button_description">Konu reset butonu</string>
+
+    //FavouriteTypeSelector
+    <string name="favourite_type_quizzes">Quizler</string>
+    <string name="favourite_type_questions">Sorular</string>
+    <string name="favourite_type_label">Bir seçenek seçin</string>
+    <string name="dropdown_expand">Açılır menüyü genişlet</string>
+    <string name="dropdown_collapse">Açılır menüyü daralt</string>
+    <string name="text_no_saved_quizzes">Kaydedilmiş bir quiz bulunmamaktadır.</string>
+    <string name="text_no_saved_questions">Kaydedilmiş bir soru bulunmamaktadır.</string>
+
+    //SortingDialog
+    <string name="sort_newest">En Yeni</string>
+    <string name="sort_oldest">En Eski</string>
+
+    //QuizScreen
+    <string name="answer_correct">✅ Doğru!</string>
+    <string name="answer_wrong">❌ Yanlış!</string>
+    <string name="button_check_answer">Cevabı Kontrol Et</string>
+    <string name="button_show_results">Sonuçları Göster</string>
+    <string name="button_next_question">Sonraki Soru</string>
+    <string name="creating_quiz">Quiz oluşturuluyor…</string>
+    <string name="quiz_completed">"🎉 Quiz tamamlandı!"</string>
+    <string name="result_correct_answers">✅ Doğru Cevaplar: %1$d / %2$d</string>
+    <string name="button_save_quiz">Quiz\'i Kaydet</string>
+    <string name="fav_question_description">Soruyu Kaydedilenlere Ekle</string>
+
+    <string name="error_unknown">⚠️ Bilinmeyen bir hata oluştu</string>
+    <string name="error_unexpected">🚨 Beklenmeyen hata: %1$s</string>
+
+    <string name="back_button_description">Geri</string>
+
+    //SettingsScreen
+    <string name="settings_title">Ayarlar</string>
+    <string name="label_language">Dil</string>
+    <string name="label_dark_mode">Karanlık Tema</string>
+    <string name="button_delete_all_questions">Tüm Kayıtlı Soruları Sil</string>
+    <string name="button_delete_all_quizzes">Tüm Kayıtlı Quizler\'i Sil</string>
+    <string name="all_questions_deleted">Tüm sorular silindi.</string>
+    <string name="all_quizzes_deleted">Tüm quiz\'ler silindi.</string>
+    <string name="header_quizzes_for_delete_dialog">Quizler\'i sil</string>
+    <string name="header_questions_for_delete_dialog">Soruları Sil</string>
+    <string name="text_dialog_all_quizzes">Tüm kaydedilmiş quizler\'i silmek istediğine emin misiniz?</string>
+    <string name="text_dialog_all_questions">Tüm kaydedilmiş soruları silmek istediğinize emin misiniz?</string>
+
+</resources>
